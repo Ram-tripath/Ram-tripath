@@ -39,10 +39,9 @@ export default function PortfolioPage() {
           <h3 className="text-xl font-semibold">Senior Software Engineer @ Lowe's India</h3>
           <p className="text-sm text-gray-400">Jun 2022 – Present</p>
           <ul className="list-disc list-inside mt-2 space-y-2">
-            <li>Developed RBAC for Airflow Connections & Variables</li>
-            <li>Integrated Kibana logs into the Airflow UI</li>
-            <li>Designed a self-upgrading Airflow platform</li>
-            <li>Built Slack chatbot for query-response automation</li>
+            <li>Developed RBAC for connections and variables, and integrated Kibana for logs in Airflow UI, providing out-of-the-box features not available in standard Airflow.</li>
+            <li>Designed a self-upgrading Airflow platform, allowing automatic updates and enhancements, resulting in improved system performance and reliability.</li>
+            <li>Developed a Slack chatbot application architecture that facilitated eﬃcient communication and interaction with users, responding to queries and requests promptly and eﬀectively.</li>
           </ul>
         </div>
 
@@ -50,8 +49,8 @@ export default function PortfolioPage() {
           <h3 className="text-xl font-semibold">Backend Developer @ Quadeye Securities</h3>
           <p className="text-sm text-gray-400">Apr 2021 – May 2022</p>
           <ul className="list-disc list-inside mt-2 space-y-2">
-            <li>Automated trading tasks using Python and Bash</li>
-            <li>Resolved live trading errors across multiple global markets</li>
+          <li>Troubleshot and resolved trading strategy errors, and enhanced operational processes with Python and Bash automation scripts, resulting in improved performance.</li>
+          <li>Managed critical trading strategy operations in multiple regions, including the USA, Japan, China, and Australia, during market hours, maintaining high standards of performance and ensuring smooth execution of trades.</li>
           </ul>
         </div>
 
@@ -59,8 +58,8 @@ export default function PortfolioPage() {
           <h3 className="text-xl font-semibold">Cloud Engineer @ Ericsson India</h3>
           <p className="text-sm text-gray-400">Dec 2019 – Apr 2021</p>
           <ul className="list-disc list-inside mt-2 space-y-2">
-            <li>Automated health check and diagnostics of Nexenta Cloud</li>
-            <li>Built packet drop counter tools for virtualized networks</li>
+          <li>Nexenta Cloud Healthcheck -INDIA | AUSTRALIA | CHINA | THAILAND Designed an automated health-check activity of Nexenta Cloud storage from a remote server and analyse the output to give status and feedback of Nexenta Cloud Storage services deployed.</li>
+          <li>Packet Drop Counter Automation - INDIA | CHINA Automated packet drop counting in virtual machines deployed in a cloud infrastructure using a Python program, providing accurate counts at predefined intervals.</li>
           </ul>
         </div>
       </section>
