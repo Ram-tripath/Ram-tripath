@@ -1,6 +1,3 @@
-
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Mail, Linkedin, Phone } from "lucide-react";
 
 export default function PortfolioPage() {
@@ -17,7 +14,7 @@ export default function PortfolioPage() {
           <a href="tel:+919003737733" className="flex items-center space-x-1 hover:text-white">
             <Phone className="w-4 h-4" /> <span>+91 90037 37733</span>
           </a>
-          <a href="https://linkedin.com/in/ram-kishore-tripathi-14b5374a" target="_blank" className="flex items-center space-x-1 hover:text-white">
+          <a href="https://linkedin.com/in/ram-kishore-tripathi-14b5374a" target="_blank" className="flex items-center space-x-1 hover:text-white" rel="noopener noreferrer">
             <Linkedin className="w-4 h-4" /> <span>LinkedIn</span>
           </a>
         </div>
@@ -38,40 +35,34 @@ export default function PortfolioPage() {
       <section className="max-w-5xl mx-auto space-y-8">
         <h2 className="text-2xl font-semibold text-center">Experience</h2>
 
-        <Card>
-          <CardContent className="p-6">
-            <h3 className="text-xl font-semibold">Senior Software Engineer @ Lowe's India</h3>
-            <p className="text-sm text-gray-400">Jun 2022 – Present</p>
-            <ul className="list-disc list-inside mt-2 space-y-2">
-              <li>Developed RBAC for Airflow Connections & Variables</li>
-              <li>Integrated Kibana logs into the Airflow UI</li>
-              <li>Designed a self-upgrading Airflow platform</li>
-              <li>Built Slack chatbot for query-response automation</li>
-            </ul>
-          </CardContent>
-        </Card>
+        <div className="bg-gray-800 rounded-lg p-6 shadow-md">
+          <h3 className="text-xl font-semibold">Senior Software Engineer @ Lowe's India</h3>
+          <p className="text-sm text-gray-400">Jun 2022 – Present</p>
+          <ul className="list-disc list-inside mt-2 space-y-2">
+            <li>Developed RBAC for Airflow Connections & Variables</li>
+            <li>Integrated Kibana logs into the Airflow UI</li>
+            <li>Designed a self-upgrading Airflow platform</li>
+            <li>Built Slack chatbot for query-response automation</li>
+          </ul>
+        </div>
 
-        <Card>
-          <CardContent className="p-6">
-            <h3 className="text-xl font-semibold">Backend Developer @ Quadeye Securities</h3>
-            <p className="text-sm text-gray-400">Apr 2021 – May 2022</p>
-            <ul className="list-disc list-inside mt-2 space-y-2">
-              <li>Automated trading tasks using Python and Bash</li>
-              <li>Resolved live trading errors across multiple global markets</li>
-            </ul>
-          </CardContent>
-        </Card>
+        <div className="bg-gray-800 rounded-lg p-6 shadow-md">
+          <h3 className="text-xl font-semibold">Backend Developer @ Quadeye Securities</h3>
+          <p className="text-sm text-gray-400">Apr 2021 – May 2022</p>
+          <ul className="list-disc list-inside mt-2 space-y-2">
+            <li>Automated trading tasks using Python and Bash</li>
+            <li>Resolved live trading errors across multiple global markets</li>
+          </ul>
+        </div>
 
-        <Card>
-          <CardContent className="p-6">
-            <h3 className="text-xl font-semibold">Cloud Engineer @ Ericsson India</h3>
-            <p className="text-sm text-gray-400">Dec 2019 – Apr 2021</p>
-            <ul className="list-disc list-inside mt-2 space-y-2">
-              <li>Automated health check and diagnostics of Nexenta Cloud</li>
-              <li>Built packet drop counter tools for virtualized networks</li>
-            </ul>
-          </CardContent>
-        </Card>
+        <div className="bg-gray-800 rounded-lg p-6 shadow-md">
+          <h3 className="text-xl font-semibold">Cloud Engineer @ Ericsson India</h3>
+          <p className="text-sm text-gray-400">Dec 2019 – Apr 2021</p>
+          <ul className="list-disc list-inside mt-2 space-y-2">
+            <li>Automated health check and diagnostics of Nexenta Cloud</li>
+            <li>Built packet drop counter tools for virtualized networks</li>
+          </ul>
+        </div>
       </section>
 
       {/* Skills */}
