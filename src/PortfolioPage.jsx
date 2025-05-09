@@ -77,6 +77,18 @@ export default function PortfolioPage() {
         </div>
       </section>
 
+      {/* Certifications */}
+      <section className="max-w-4xl mx-auto text-center space-y-4">
+        <h2 className="text-2xl font-semibold">Certifications</h2>
+        <ul className="list-disc list-inside space-y-2 text-left mx-auto max-w-md">
+          <li>Oracle Cloud - 2019 Certified Architect Associate</li>
+          <li>Oracle Cloud - 2020 Certified Associate</li>
+          <li>Virtual Agile Teams - International Institute for Learning</li>
+          <li>Certified Network Security Specialist - International Cybersecurity Institute</li>
+          <li>Python Data Structure - University of Michigan (Coursera)</li>
+        </ul>
+      </section>
+
       {/* Education */}
       <section className="max-w-3xl mx-auto text-center">
         <h2 className="text-2xl font-semibold">Education</h2>
