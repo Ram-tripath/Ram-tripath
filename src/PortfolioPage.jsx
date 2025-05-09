@@ -24,10 +24,13 @@ export default function PortfolioPage() {
       <section className="max-w-3xl mx-auto text-center space-y-4">
         <h2 className="text-2xl font-semibold">About Me</h2>
         <p>
-          I’m a Senior Software Engineer specializing in backend systems, cloud automation, and data engineering tools like Apache Airflow. I've built scalable tools for data orchestration, log analytics integrations, and internal developer tools.
+        Skilled in Python, Airflow, Kubernetes, Java, and Bash, I enjoy building automation-driven systems that solve real-world engineering challenges.
         </p>
         <p>
-          With experience across retail tech, trading platforms, and cloud services, I focus on systems that improve operational efficiency and developer productivity.
+        I'm a Senior Software Engineer at Lowe’s India, part of the Enterprise Architecture team, focused on building a scalable, enterprise-ready Apache Airflow platform. I’ve led key enhancements like RBAC for connections and variables, integrated Kibana logs into the UI, and designed a self-upgrading system to streamline updates and boost reliability. I also created a Slack chatbot architecture to simplify internal support.
+        </p>
+        <p>
+        Previously, at Quadeye Securities, I optimized high-frequency trading strategies across global markets, and at Ericsson, I developed cloud automation tools for telecom clients.
         </p>
       </section>
 
@@ -80,13 +83,15 @@ export default function PortfolioPage() {
       {/* Certifications */}
       <section className="max-w-4xl mx-auto text-center space-y-4">
         <h2 className="text-2xl font-semibold">Certifications</h2>
-        <ul className="list-disc list-inside space-y-2 text-left mx-auto max-w-md">
+        <div className="bg-gray-800 rounded-lg p-6 shadow-md">
+        <ul className="list-disc list-inside mt-2 space-y-2">
           <li>Oracle Cloud - 2019 Certified Architect Associate</li>
           <li>Oracle Cloud - 2020 Certified Associate</li>
           <li>Virtual Agile Teams - International Institute for Learning</li>
           <li>Certified Network Security Specialist - International Cybersecurity Institute</li>
           <li>Python Data Structure - University of Michigan (Coursera)</li>
         </ul>
+        </div>
       </section>
 
       {/* Education */}
